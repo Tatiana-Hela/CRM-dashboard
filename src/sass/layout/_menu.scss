@@ -1,0 +1,98 @@
+.menu-aside {
+  background-color: var(--white);
+  box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
+  padding: 36 36 78 28;
+  width: 306px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.logo__desc {
+  color: #000;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0.26px;
+}
+.menu__version {
+  color: #838383;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: -0.1px;
+  margin-left: 4px;
+  margin-bottom: 6px;
+}
+.menu-aside__logo {
+  display: flex;
+  align-items: flex-end;
+}
+.menu-aside__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 65px;
+  margin-left: 11px;
+}
+.menu-aside__list__icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.menu-aside__list__icon-arrow {
+  margin-left: auto;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.menu-aside__list-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: var(--menu-font-color);
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.14px;
+  padding: 11 15 11 11;
+  border-radius: 8px;
+  cursor: pointer;
+  background: transparent;
+  transition: color var(--transition-dur-and-func),
+    background var(--transition-dur-and-func);
+
+  &:hover,
+  &:focus {
+    color: var(--white);
+    background: var(--accent-background-color);
+  }
+}
+.active {
+  color: var(--white);
+  background: var(--accent-background-color);
+}
+.menu-aside__user {
+  margin-top: 400px;
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+.menu-aside__user-name {
+  color: var(--secondary-font-color);
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.14px;
+}
+.menu-aside__user-position {
+  color: #757575;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
